@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles2.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <title></title>
+
+</head>
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--end of Navigation bar-->
+    
+    <div class="article">
+        
+        <div class="top-section">
+            <h1>Competitive Swimming</h1>
+            <div class="skills">
+                <h2>Skills</h2>
+                <p>
+                    <img src="Icons/bootstrap/lightning.svg" alt=" " width=auto height="20">
+                    <div class="description">Hard work | ++</div>
+                </p>
+            </div>
+        </div>
+        
+        <div class="bread">
+            <p>
+                Regular swimming has been hobby of mine ever since I was 2 years old. Competitive swimming, I started in 2009 in TaUs (Tampereen Uimaseura) as one of my good friends was in there. Later I changed to TaTU Tampere (Tampereen Työväen Uimarit).
+            </p>
+            <p>
+                During my swimming years I learned the importance of scheduling, healthiness and of course how to work hard since at the most I had 7 workouts a week totalling of 14 hours of training. 
+            </p>    
+        </div>
+        
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles2.css">
+    
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+        body{
+            background-color: var(--color4);
+            background-image: none;
+        }
+        .container .intro{
+            display: none;
+        }
+        .container .intro img{
+            display: none;
+        }
+        .container .bubble{
+            padding: 20px;
+            padding-bottom: 50px;
+            background-color: var(--color4);
+        }
+        @media only screen and (min-width: 768px){
+            body{
+                background-color: var(--color1);
+            }
+            .container{
+                position: relative;
+                display: flex;
+                padding: 20px 0;
+                align-items: center;
+                justify-content: center;
+            }
+            .container .intro{
+                margin: 0px;
+                display: block;
+            }
+            .container .intro img{
+                padding: 0;
+                margin: 0;
+                display: block;
+            }
+            .container .bubble{
+                padding: 20px;
+                background-color: var(--color4);
+                border-radius: 10px 10px 10px 0;
+                margin: 20px;
+            }
+        }
+    </style>
+
+    <title>Contact</title>
+
+</head>
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--end of Navigation bar-->
+    
+    <div class="top-section">
+        <h1>Contact</h1>
+        <p>
+            Here you can find ways to contact me.
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            <img src="Images/headshot.jpg" alt="">
+        </div>
+        <div class="bubble">
+            <div class="skills">
+                <p>
+                    <img src="Icons/telegram.png" alt=" " width="auto" height="20">
+                    <div class="description">
+                        Telegram: <a href="https://t.me/Sakukovanen" target="_blank">@Sakukovanen</a>
+                    </div>
+                </p>
+                <p>
+                    <img src="Icons/bootstrap/envelope.svg" alt=" " width="auto" height="20">
+                    <div class="description">
+                        Email: sakukovanen@gmail.com
+                    </div>
+                </p>
+                <p>
+                    <img src="Icons/linkedin.png" alt=" " width="auto" height="20">
+                    <div class="description">
+                        LinkedIn: <a href="https://www.linkedin.com/in/saku-kovanen-055351180/">Saku Kovanen</a>
+                    </div>
+                </p>
+                <p>
+                    <img src="Icons/bootstrap/github.svg" alt=" " width="auto" height="20">
+                    <div class="description">
+                        GitHub: <a href="https://github.com/Sakkov">@Sakkov</a>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

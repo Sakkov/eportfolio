@@ -1,0 +1,34 @@
+.col1{
+    content: '';
+    background-color: --color1;
+    height: 100px;
+    width: 100%; 
+}
+
+.col2{
+    content: '';
+    background-color: --color2;
+    height: 100px;
+    width: 100%; 
+}
+
+.col3{
+    content: '';
+    background-color: --color3;
+    height: 100px;
+    width: 100%; 
+}
+
+.col4{
+    content: '';
+    background-color: --color4;
+    height: 100px;
+    width: 100%; 
+}
+
+.col5{
+    content: '';
+    background-color: --color5;
+    height: 100px;
+    width: 100%; 
+}

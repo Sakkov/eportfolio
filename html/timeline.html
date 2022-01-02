@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles2.css">
+    <link rel="import" href="navbar.html">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Timeline</title>
+</head>
+
+<body>
+
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+    $.get("navbar.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>
+<!--end of Navigation bar-->
+
+
+    <div class="top-section">
+        <h1>Timeline of my accomplishments</h1>
+        <p>Here you can see all my accomplishments I have thought to be somewhat interesting and might affect my suitability to a job. <br><br>You can read more on each topic by clicking/tapping on the box.</p>
+    </div>
+
+    <!--Timeline-->
+    <div id="timeline-placeholder">
+
+    </div>
+
+    <script>
+        $.get("baretimeline.html", function(data){
+            $("#timeline-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--end of Timeline-->    
+    
+
+
+<script src="script.js"></script>
+</body>
+</html>
