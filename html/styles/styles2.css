@@ -295,7 +295,7 @@ body {
         height: auto;
     }
 
-    .article .bread img:hover{
+    a img:hover{
         outline: tomato solid 2px;
     }
 }
