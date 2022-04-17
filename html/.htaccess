@@ -1,0 +1,14 @@
+# mod_rewrite starts here
+
+RewriteEngine on
+
+# does not apply to existing directories, meaning that if the folder exists on the server dont change anything
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Check fo file in directory with .html extension
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Here we actually show the page that has the .html extension
+RewriteRule ^(.*)\.html$ /$1 [NC,L,R=301]
+
+# mod_rewrite ends here

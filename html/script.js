@@ -5,5 +5,5 @@ function goto(destination) {
 }
 
 function home() {
-    goto("./index.html")
+    goto("./")
 }
