@@ -222,6 +222,12 @@ body {
 }
 
 @media only screen and (min-width: 768px){
+    .navbar {
+        position: sticky;
+        display: flex;
+        z-index: 999;
+    }
+
     .navbar ul {
         overflow: hidden;
     }
