@@ -1,7 +1,7 @@
 
 
 function goto(destination) {
-    location.replace(destination)
+    location.href =(destination)
 }
 
 function home() {

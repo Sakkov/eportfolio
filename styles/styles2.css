@@ -109,7 +109,7 @@ body {
     background-color: var(--color2);
 }
 
-.article .bread *{
+.article .bread p, .article .bread img{
     margin: 1rem 2rem 0;
 }
 
@@ -175,6 +175,12 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.timeline__link {
+    text-decoration: none;
+    color: black;
+    background-color: red;
 }
 
 .timeline ul li:last-child{
