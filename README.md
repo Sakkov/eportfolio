@@ -3,6 +3,8 @@ Website ePortfolio I made to learn some web developement and maybe help me stand
 
 The code is really messy because it's the first website I've done.
 
+#### Update _10th of May_
+I've been busy with my studies and work. I did a website for a customer which you can find here: https://kauvanto.fi. Now that I'm done with that project I may have time to do some small updates on my website.
 
 #### Update _12th of April_
 I moved the host from my local machine to Netlify. That means the website is up and running. I also got SSL certificate for the site. The address is https://sakukovanen.fi/
