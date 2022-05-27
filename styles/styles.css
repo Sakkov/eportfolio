@@ -28,6 +28,17 @@ nav {
     text-align: right;
 }
 
+#nav__title {
+    display: block;
+    float: left;
+}
+
+#nav__title a {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .nav__list {
     width: 100%;
     max-width: 1200px;
@@ -315,6 +326,7 @@ nav {
 
     /*Nav styles */
     nav {
+        background-color: rgba(255, 255, 255, 0.75);
         width: 100%;
         display: inline;
         justify-content: center;
@@ -325,8 +337,14 @@ nav {
         z-index: 999;
     }
 
+    #nav__title a {
+        font-size: 24px;
+        padding: 24px 16px;
+    }
+
     .nav__list a{
         display: block;
+        padding: 30px 16px;
     }
 
     .nav__list-item {
