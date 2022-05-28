@@ -41,7 +41,7 @@ nav {
 
 .nav__list {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -126,7 +126,7 @@ nav {
     display: block;
     grid-template-columns: 3fr 1fr;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1300px;
     max-height: min-content;
 }
 
@@ -176,7 +176,7 @@ nav {
     display: block;
     grid-template-columns: 1fr 1fr;
     padding: 1rem;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     justify-content: center;
     background-color: var(--lightColor1);
@@ -208,7 +208,7 @@ nav {
 
 #article__skills-container {
     margin: auto;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 #article__skills {
@@ -430,5 +430,11 @@ nav {
 @media only screen and (min-width: 1000px){
     .article .bread{
         display: grid;
+    }
+}
+
+@media only screen and (min-width: 1300px){
+    .article .bread{
+        margin: 20px auto;
     }
 }
