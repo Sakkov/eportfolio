@@ -39,6 +39,10 @@ nav {
     text-transform: uppercase;
 }
 
+#nav__title a:hover{
+    color: var(--highlightColor1);
+}
+
 .nav__list {
     width: 100%;
     max-width: 1300px;
@@ -65,10 +69,6 @@ nav {
     color: white;
     background-color: var(--highlightColor1);
     transition: all 0.3s ease;
-}
-
-.nav__list-item a.navtitle{
-    display: block;
 }
 
 #nav__icon{
