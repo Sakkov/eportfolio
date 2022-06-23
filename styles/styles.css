@@ -279,6 +279,12 @@ nav {
     margin-bottom: 10px;
 }
 
+.timeline__content img {
+    max-height: 120px;
+    display: block;
+    margin: auto;
+}
+
 .timeline__content p {
     font-size: 16px;
     line-height: 30px;
