@@ -221,8 +221,9 @@ nav {
 }
 
 .skill{
-    display: inline-block;
+    display: inline-flex;
     width: 260px;
+    max-width: 85vw;
 }
 
 #article__skills img {  
