@@ -10,7 +10,7 @@ function home() {
 
 function navBar(y) {
     y.classList.toggle("change");
-    var x = document.getElementById("myLinks");
+    const x = document.getElementById("myLinks");
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {
