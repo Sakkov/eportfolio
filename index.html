@@ -20,61 +20,66 @@
     <title>Saku Kovanen</title>
 </head>
 <body>
-
-    <!--Navigation bar-->
-    <div id="nav-placeholder">
-
-    </div>
-
-    <script>
-        $.get("navbar.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-    </script>
-    <!--end of Navigation bar-->
-
-    <div class="top-section">
-        <h1>Welcome to my ePortfolio!</h1>
-        <p>My name is Saku Kovanen and I am a student in Aalto University. I am also part time entrepreneur</p>
-    </div>
-
-    <div class="intro">
-        <div class="intro__image">
-            <a href="contact" style="display: inline-flex;">
-                <img src="Images/headshot25.webp" alt="Saku Kovanen" width="160" height="213.33">
-            </a>
+    <div class="content">
+        
+        
+            <!--Navigation bar-->
+            <div id="nav-placeholder">
+        
+            </div>
+        
+            <script>
+                $.get("navbar.html", function(data){
+                    $("#nav-placeholder").replaceWith(data);
+                });
+            </script>
+            <!--end of Navigation bar-->
+        
+            <div class="top-section">
+                <h1>Saku Kovanen: </h1>
+                <h1 class="smaller">
+                    Future Computer Scientist, - Electrical Engineer and - Quantum Computer scientist
+                </h1>
+                <p>
+                    I am a 2nd year student in Aalto University. I am also part time entrepreneur.
+                </p>
+            </div>
+        
+            <div class="intro">
+                <div class="intro__image">
+                    <a href="contact" style="display: inline-flex;">
+                        <img src="Images/headshot25.webp" alt="Saku Kovanen" width="160" height="213.33">
+                    </a>
+                </div>
+                <div class="intro__text">
+                    <p>
+                        This is my website I made to learn some web development and possibly to help me stand out to potential employers. 
+                    </p>
+                    <p>
+                        My major is Digital Systems and Design which is somewhere between electrical engineering and computer science. My minors are Data Science and Quantum Technology. You can find the courses I have completed and the grades <a href="https://opintopolku.fi/koski/opinnot/dca4b58fd8b947209180fa8057769f28">here</a>.
+                    </p>
+                </div>
+            </div>
+        
+        
+        
+            <div class="top-section">
+                <h2>Timeline of my accomplishments</h2>
+                <p>Here you can see all my accomplishments I have thought to be somewhat interesting and might affect my suitability to a job.<br><br>You can read more on each topic by clicking/tapping on the box.</p>
+            </div>
+            
         </div>
-        <div class="intro__text">
-            <p>
-                This is my website I made to learn some web development and possibly to help me stand out to potential employers. 
-            </p>
-            <p>
-                You can navigate the main pages with the navigation bar on the top of the page. Under this you can find a timeline of some of my accomplishments. In the tab “Contact” you can find ways to contact me. In the “Work Experience” tab, you can find my resume and my work experience.
-            </p>
-            <p>
-                My major is Digital Systems and Design which is somewhere between electrical engineering and computer science. My minors are Data Science and Quantum Technology. You can find the courses I have completed and the grades <a href="https://opintopolku.fi/koski/opinnot/dca4b58fd8b947209180fa8057769f28">here</a>.
-            </p>
-        </div>
-    </div>
-
-
-
-    <div class="top-section">
-        <h2>Timeline of my accomplishments</h2>
-        <p>Here you can see all my accomplishments I have thought to be somewhat interesting and might affect my suitability to a job. <br><br>You can read more on each topic by clicking/tapping on the box.</p>
-    </div>
+        <!--Timeline-->
+        <div id="timeline-placeholder">
     
-    <!--Timeline-->
-    <div id="timeline-placeholder">
-
-    </div>
-
-    <script>
-        $.get("baretimeline.html", function(data){
-            $("#timeline-placeholder").replaceWith(data);
-        });
-    </script>
-    <!--end of Timeline-->
+        </div>
+    
+        <script>
+            $.get("baretimeline.html", function(data){
+                $("#timeline-placeholder").replaceWith(data);
+            });
+        </script>
+        <!--end of Timeline-->
     
 <script src="script.js"></script>
 <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/772a797c526b9f8528cc6d5233671625.js"></script>
