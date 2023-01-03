@@ -1,9 +1,9 @@
 :root {
     --lightColor1: rgb(22, 21, 20);
-    --lightColor2: rgb(18, 20, 19);
+    --lightColor2: rgb(20, 20, 20);
     --mediumColor1: rgb(37, 35, 32);
-    --mediumColor2: rgb(33, 39, 36);
-    --mediumDarkColor1: rgb(73, 57, 20);
+    --mediumColor2: rgb(32, 32, 32);
+    --mediumDarkColor1: rgb(0, 0, 0);
     --highlightColor1: rgb(255, 99, 71);
 }
 
@@ -389,6 +389,7 @@ p {
 
     .top-section {
         padding-top: 100px;
+        padding-bottom: 20px;
     }
 
     .timeline {
