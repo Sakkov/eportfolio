@@ -14,7 +14,7 @@
     box-sizing: border-box;
     line-height: 2;
     font-weight: 400;
-    color: rgb(252, 238, 238);
+    color: rgb(255, 251, 251);
     font-size: 18px;
 }
 
@@ -90,7 +90,7 @@ nav {
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 3px;
-    background-color: var(--mediumDarkColor1);
+    background-color: var(--highlightColor1);
     margin: 7px 0;
     transition: 0.4s;
 }
