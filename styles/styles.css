@@ -305,6 +305,15 @@ p {
     line-height: 30px;
 }
 
+.timeline__content-grid {
+    display: block;
+    grid-template-columns: auto auto;
+}
+
+.timeline__content-grid img {
+    padding: 5px;
+}
+
 .timeline__content .date{
     font-size: 12px;
     font-weight: 400;
@@ -463,10 +472,15 @@ p {
     .article .bread{
         display: grid;
     }
-}
 
-@media only screen and (min-width: 1300px){
+    .timeline__content-grid{
+        display: grid;
+    }
+    
     .article .bread{
         margin: 20px auto;
     }
+}
+
+@media only screen and (min-width: 1300px){
 }
