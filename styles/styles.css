@@ -153,9 +153,10 @@ p {
 
 /* Top-section styling */
 .top-section {
-    background-color: var(--mediumColor2);
+    background-color: var(--mediumDarkColor1);
     text-align: center;
     padding-top: 100px;
+    border-radius: 10px;
 }
 
 .top-section h1 {
